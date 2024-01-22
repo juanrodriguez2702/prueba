@@ -53,14 +53,14 @@ export class HistoricosDeInventarioComponent implements OnInit {
       })
       barra?.classList.add (mes+index)
       console.log(index)     
-      
+
       
     } 
     const inicio = document.getElementById('mensaje1')
     const mensaje1 = document.getElementsByClassName('numero') 
     const mensaje2 = document.getElementsByClassName('numero_por')
     const icon = this.icon
-    const porcentaje1 = this.meses_v2[indice-1].porcentaje1
+    const porcentaje1 = this.meses_v2[indice-1].porcentaje1 
     const porcentaje2 = this.meses_v2[indice-1].porcentaje2
 
     if(mensaje1.length && mensaje2.length && icon.length >0){
